@@ -1,6 +1,138 @@
 {
-    "cSpell.ignoreWords": [
-        "app",
-        "palevioletred"
-    ]
+  "workbench.iconTheme": "vscode-icons",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "files.autoSave": "afterDelay",
+  "git.autofetch": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": true,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.rendererType": "dom",
+  "workbench.colorTheme": "Cobalt2",
+  "workbench.startupEditor": "newUntitledFile",
+  "liveServer.settings.donotVerifyTags": true,
+  "window.zoomLevel": 0,
+  "eslint.format.enable": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+
+  // These are all my auto-save configs
+  "editor.formatOnSave": true,
+  // turn it off for JS and JSX, we will do this via eslint
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    // "editor.defaultFormatter": "dbaeumer.vscode-eslint",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false
+  },
+  // tell the ESLint plugin to run on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+  // "prettier.disableLanguages": [
+  //   "javascript",
+  //   "javascriptreact"
+  // ],
+
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "gitlens.views.repositories.location": "gitlens",
+  "gitlens.views.fileHistory.location": "gitlens",
+  "gitlens.views.lineHistory.location": "gitlens",
+  "gitlens.views.compare.location": "gitlens",
+  "gitlens.views.search.location": "gitlens",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cSpell.userWords": [
+    "Fathy",
+    "coagulopathy",
+    "figma",
+    "gsap",
+    "in",
+    "linkedin",
+    "minmax",
+    "muhamed",
+    "performant",
+    "polyline"
+  ],
+  "eslint.alwaysShowStatus": true,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontWeight": "400",
+  "prettier.jsxSingleQuote": true,
+  "workbench.sideBar.location": "right",
+  "window.menuBarVisibility": "default",
+  "workbench.activityBar.visible": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "htmlhint.documentSelector": ["html", "htm"],
+  "showGitMetrics": true,
+  //wesboss
+  "editor.lineHeight": 20,
+  "editor.letterSpacing": 0.5,
+  "files.trimTrailingWhitespace": true,
+  "editor.cursorStyle": "line",
+  "editor.cursorWidth": 2,
+  "editor.cursorBlinking": "solid",
+  "editor.renderWhitespace": "all",
+  "workbench.statusBar.visible": true,
+  "prettier.jsxBracketSameLine": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+},
+"emmet.optimizeStylesheetParsing": false,
+"cSpell.ignoreWords": [
+  "app",
+  "button",
+  "class",
+  "components",
+  "const",
+  "css",
+  "default",
+  "div",
+  "export",
+  "filter",
+  "from",
+  "function",
+  "get",
+  "h",
+  "header",
+  "id",
+  "import",
+  "input",
+  "key",
+  "length",
+  "list",
+  "map",
+  "name",
+  "new",
+  "on",
+  "react",
+  "remove",
+  "return",
+  "set",
+  "state",
+  "style",
+  "todo",
+  "todos",
+  "ul",
+  "use",
+  "value"
+]
 }
+// // "liveSassCompile.settings.formats": [
+// //   {
+// //     "format": "compressed",
+// //     "extensionName": ".css",
+// //     "savePath": "/src"
+// //   }
+// // ],
